@@ -23,7 +23,6 @@ const cards = [
   console.log(cards);
   const cardToRemove = 'Карточка-3';
   const index = cards.indexOf(cardToRemove);
-  console.log(index);
   cards.splice(index, 1)
 console.log(cards);
 const cardToInsert = 'Карточка-6';
